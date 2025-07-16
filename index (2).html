@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoodie Brand</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header, footer {
+      background-color: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .product {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      width: calc(33.333% - 2rem);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin-top: 0.5rem;
+    }
+    .whatsapp {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #25D366;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      .product {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Hoodie Brand</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container" id="home">
+    <h2>Welcome to My Hoodie Brand</h2>
+    <p>Stylish, comfortable hoodies made with passion and quality.</p>
+  </div>
+
+  <div class="container" id="shop">
+    <h2>Shop Hoodies</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300?text=Hoodie+1" alt="Hoodie 1">
+        <h3>Classic Black Hoodie</h3>
+        <p>$35.00</p>
+        <a class="whatsapp" href="https://wa.me/212600000000?text=Hi%2C%20I'm%20interested%20in%20the%20Classic%20Black%20Hoodie!">Order via WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300?text=Hoodie+2" alt="Hoodie 2">
+        <h3>Beige Premium Hoodie</h3>
+        <p>$40.00</p>
+        <a class="whatsapp" href="https://wa.me/212600000000?text=Hi%2C%20I'm%20interested%20in%20the%20Beige%20Premium%20Hoodie!">Order via WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300?text=Hoodie+3" alt="Hoodie 3">
+        <h3>White Minimal Hoodie</h3>
+        <p>$38.00</p>
+        <a class="whatsapp" href="https://wa.me/212600000000?text=Hi%2C%20I'm%20interested%20in%20the%20White%20Minimal%20Hoodie!">Order via WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300?text=Hoodie+4" alt="Hoodie 4">
+        <h3>Oversized Gray Hoodie</h3>
+        <p>$42.00</p>
+        <a class="whatsapp" href="https://wa.me/212600000000?text=Hi%2C%20I'm%20interested%20in%20the%20Oversized%20Gray%20Hoodie!">Order via WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p>We're a small, independent clothing brand passionate about streetwear and comfort. Each hoodie is designed with care and made for everyday use.</p>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact</h2>
+    <p>Need help or want a custom order? Message us directly on WhatsApp:</p>
+    <a class="whatsapp" href="https://wa.me/212600000000">Chat on WhatsApp</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Hoodie Brand. All rights reserved.</p>
+  </footer>
+</body>
+</html>
